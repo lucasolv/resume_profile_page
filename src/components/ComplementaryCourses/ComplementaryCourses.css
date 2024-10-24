@@ -1,0 +1,37 @@
+.complementary-courses > h2{
+    margin-bottom: .7em;
+    border-left: 5px solid #0094f6;
+    padding: 0 0.7rem;
+}
+
+.courses-infos{
+    margin-left: .1rem;
+    border-left: 2px solid #0094f6;
+    padding: 0 .7rem;/* 
+    width: 30%; */
+    cursor: pointer;/* 
+    margin-bottom: 1.2rem; */
+}
+
+.courses-container{
+    display: flex;/* 
+    flex-wrap: wrap;
+    gap: 1.2rem; */
+}
+
+.courses-infos p{
+    font-size: .9em;
+}
+
+.courses-infos h3{
+    font-size: 1.1em;
+    margin-bottom: .25em;
+    transition: .2s;/* 
+    color: #33adff; */
+}
+
+/* .courses-infos */
+
+.courses-infos:hover > h3{
+    color: #0094f6;
+}

@@ -1,13 +1,252 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App > footer{
+    display: none;
+}
+
+body {
+    background-color: #363636;
+    color: white;
+}
+
+.section-info{
+    margin-bottom: 2rem !important;
+}
+
+.photo-mobile{
+    display: none;
+}
+
+.academic-background-tablet{
+    display: none;
+}
+
+.infos-container-tablet{
+    display: none;
+}
+
+@media(max-width: 450px){
+    .photo-pc{
+        display: none;
+    }
+    .photo-mobile{
+        display: flex;
+        margin-bottom: 2rem;
+    }
+    .profile-info{
+        flex-direction: column;
+    }
+    .photo-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo-mobile > img{
+        margin-bottom: 1rem;
+    }
+    /* .profile-info-text{
+        max-width: 300px;
+    } */
+    .infos-profile-header{
+        display: none;
+    }
+    .profile-info-container{
+        padding: 0;
+    }
+    /* .academic-background{
+        max-width: 270px;
+    } */
+    .navbar{
+        width: 100%;
+        justify-content: center;
+    }
+    .instituitions-container{
+        flex-wrap: wrap;
+        gap: 1rem;
+        width: 100%;
+    }
+    .instituition-info{/* 
+        margin-bottom: 1rem; */
+        width: 100%;
+    }
+    .experiences-container{    
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .courses-container{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .App > footer{
+        display: block;
+        height: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+    .instituitions-container{
+        width: 100%;
+        gap: 1rem;
+    }
+    .instituition-info{/* 
+        margin-bottom: 1rem; */
+        width: 50%;
+    }
+    .photo-pc{
+        transform: scale(0.8);
+    }
+    .academic-background-pc-celular{
+        display: none;
+    }
+    .academic-background-tablet{
+        display: flex;
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-top: -2.7rem;
+    }
+    .academic-background{
+        width: 100%;
+    }
+    .instituition-info{
+        width: 48%;
+    }
+    .profile-info{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .profile-info-container > p{
+        height: 100%;
+    }
+    .experiences-container{    
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .experience-infos{
+        width: 48%;
+    }
+    .courses-container{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .courses-infos{
+        width: 48%;
+    }
+    .skills-competencies-tablet-pc{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        width: 100%;
+        min-height: 200px;
+    }
+    .skills,
+    .competencies{
+        width: 48%;/* 
+        height: 800px; */
+    }
+    /* .infos-container{
+        min-height: 100vh;
+    } */
+}
+
+@media (min-width: 451px) and (max-width:767px){
+    .photo-pc{
+        display: none;
+    }
+    .photo-mobile{
+        display: flex;
+        margin-bottom: 2rem;
+    }
+    .profile-info{
+        flex-direction: column;
+    }
+    .photo-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo-mobile > img{
+        margin-bottom: 1rem;
+    }
+    /* .profile-info-text{
+        max-width: 300px;
+    } */
+    .infos-profile-header{
+        display: none;
+    }
+    .profile-info-container{
+        padding: 0;
+    }
+    /* .academic-background{
+        max-width: 270px;
+    } */
+    .navbar{
+        width: 100%;
+        justify-content: center;
+    }
+    .instituitions-container{
+        flex-wrap: wrap;
+        gap: 1rem;
+        width: 100%;
+    }
+    .instituition-info{/* 
+        margin-bottom: 1rem; */
+        width: 100%;
+    }
+    .experiences-container{    
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .courses-container{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+@media (min-width: 1025px){
+    .instituitions-container{
+        width: 100%;
+        /* flex-wrap: wrap;
+        gap: 1rem; */
+    }
+    .instituition-info{
+        /* width: 48%; */
+        padding-right: 3rem;
+    }
+    .experiences-container{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .experience-infos{
+        width: 48%;
+    }
+    .complementary-courses{
+        width: 100%;
+    }
+    .courses-container{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .courses-infos{
+        width: 32%;
+    }
+    .skills-competencies-tablet-pc{
+        display: flex;
+        /* flex-wrap: wrap;
+        gap: 1rem; */
+        width: 100%;
+    }
+    .skills,
+    .competencies{
+        padding-right: 3rem;
+    }
 }

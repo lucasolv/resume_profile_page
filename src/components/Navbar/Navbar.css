@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.8rem;
+    color: #ddd;
+}
+
+.navbar > svg{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar > svg:hover,
+navbar{
+    color: rgb(78, 78, 78);
+    transition: .2s;
+}

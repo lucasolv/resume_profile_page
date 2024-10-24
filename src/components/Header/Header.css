@@ -1,0 +1,36 @@
+.header{
+    background-color: #0094f6;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header > div {
+    display: flex;
+    width: 100%;
+    max-width: 1500px;
+    padding: 5px 3rem;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.mini-profile{
+    display: flex;
+    align-items: center;
+    color: #eee;
+}
+
+.mini-profile > img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 1px solid #000;
+}
+
+.infos-profile-header > p{
+    font-size: .9rem;
+}

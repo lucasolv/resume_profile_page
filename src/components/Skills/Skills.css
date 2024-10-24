@@ -1,0 +1,19 @@
+.skills > h2{
+    margin-bottom: .7em;
+    border-left: 5px solid #0094f6;
+    padding: 0 0.7rem;
+}
+
+.skills ul{
+    list-style: none;
+    margin-left: .1rem;
+}
+
+.skills ul li{
+    border-left: 2px solid #0094f6;
+    padding: 0 .7rem;
+}
+
+/* .skills{
+    margin-right: 3rem;
+} */

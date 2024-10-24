@@ -1,0 +1,31 @@
+.academic-background > h2{
+    margin-bottom: .7em;
+    border-left: 5px solid #0094f6;
+    padding: 0 0.7rem;
+}
+
+.instituitions-container{
+    display: flex;/* 
+    gap: 1rem;
+    flex-wrap: wrap; */
+}
+
+.instituition-info{
+    border-left: 2px solid #0094f6;
+    padding-left: .7rem;
+    margin-left: .1em;
+}
+/* 
+.instituition-info{
+    margin-right: 5rem;
+} */
+
+.instituition-info p{
+    font-size: .9em;
+}
+
+.instituition-info h4{
+    font-size: 1.1em;
+    margin-bottom: .25em;/* 
+    color: #33adff; */
+}

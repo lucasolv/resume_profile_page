@@ -1,0 +1,19 @@
+.competencies > h2{
+    margin-bottom: .7em;
+    border-left: 5px solid #0094f6;
+    padding: 0 0.7rem;
+}
+
+.competencies ul{
+    list-style: none;
+    margin-left: .1rem;
+}
+
+.competencies ul li{
+    border-left: 2px solid #0094f6;
+    padding: 0 .7rem;
+}
+
+/* .competencies{
+    margin-right: 3rem;
+} */
