@@ -6,7 +6,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const handleEmailClick = () => {
-    const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=lucaseuof07@gmail.com&su=${encodeURIComponent(
+    const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=lucasoferreira.dev@gmail.com&su=${encodeURIComponent(
       ""
     )}&body=${encodeURIComponent("")}`;
     window.open(mailtoLink, "_blank");
@@ -44,7 +44,7 @@ const Navbar = () => {
         title="GitHub"
         onClick={() => window.open("https://github.com/lucasolv", "_blank")}
       />
-      <HiOutlineMail title="lucaseuof07@gmail.com" onClick={handleEmailClick} />
+      <HiOutlineMail title="lucasoferreira.dev@gmail.com" onClick={handleEmailClick} />
       <FaWhatsapp title="(61) 996410548" onClick={handleWhatsappClick} />
       <RiProfileFill title="Download do currículo em PDF" onClick={handleDownload} />
     </div>
