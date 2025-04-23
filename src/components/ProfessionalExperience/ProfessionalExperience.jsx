@@ -10,7 +10,7 @@ const ProfessionalExperience = () => {
                 <h3>Estagiário</h3>
                 <div className="experience-details">
                     <h5 className='details'>IESB</h5>
-                    <h5 className='details'>Abril de 2023 – Presente</h5>
+                    <h5 className='details'>Abril de 2023 – Abril de 2025</h5>
                     <p>Desenvolvedor: Criação de ferramenta de Inteligência artificial generativa para auxílio de alunos utilizando API da OpenAI, Python e NextJS.</p>
                 </div>
             </div>
@@ -18,7 +18,7 @@ const ProfessionalExperience = () => {
                 <h3>Freelancer</h3>
                 <div className="experience-details">
                     <h5 className='details'>Motora / ClikMob</h5>
-                    <h5 className='details'>Abril de 2024 – Agosto de 24</h5>
+                    <h5 className='details'>Abril de 2024 – Agosto de 2024</h5>
                     <p>Desenvolvedor: Construção de back-end com NodeJS e front-end com ReactJS.</p>
                 </div>
             </div>
