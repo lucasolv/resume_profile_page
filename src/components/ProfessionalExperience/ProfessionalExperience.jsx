@@ -9,9 +9,9 @@ const ProfessionalExperience = () => {
             <div className="experience-infos">
                 <h3>Estagiário</h3>
                 <div className="experience-details">
-                    <h5 className='details'>IESB</h5>
+                    <h5 className='details'>IESB / CESB</h5>
                     <h5 className='details'>Abril de 2023 – Abril de 2025</h5>
-                    <p>Desenvolvedor: Criação de ferramenta de Inteligência artificial generativa para auxílio de alunos utilizando API da OpenAI, Python e NextJS.</p>
+                    <p>Desenvolvedor: Criação de plataforma para auxílio de alunos com Inteligência artificial generativa, utilizando API da OpenAI, ReactJS e NodeJS.</p>
                 </div>
             </div>
             <div className="experience-infos">
