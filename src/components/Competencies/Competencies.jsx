@@ -8,7 +8,6 @@ const Competencies = () => {
       <ul>
         <li>NodeJS - Intermediário</li>
         <li>ReactJS - Básico</li>
-        <li>NextJS - Básico</li>
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
