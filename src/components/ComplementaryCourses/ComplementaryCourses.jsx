@@ -21,7 +21,7 @@ const ComplementaryCourses = () => {
             </div>
             <div className="courses-infos" onClick={()=>{handleCourseClick("https://portalhashtag.com/cursos/1691341626466x837882311539026800")}}>
                 <h3>JavaScript Impressionador</h3>
-                <p>Hashtag Treinamentos – 155 horas</p>
+                <p>Hashtag Treinamentos – 157 horas</p>
             </div>
         </div>
     </div>

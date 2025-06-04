@@ -16,10 +16,7 @@ const InfosContainer = () => {
       </div>
       <ProfessionalExperience />
       <ComplementaryCourses />
-      <div className="skills-competencies-tablet-pc">
-        <Competencies />
-        <Skills />
-      </div>
+      
       {/* <p>principais projetos</p> */}
     </div>
   )

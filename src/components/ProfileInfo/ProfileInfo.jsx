@@ -2,6 +2,7 @@ import './ProfileInfo.css'
 import React from 'react'
 import profileImage from '../../images/profileImage.jpg'
 import AcademicBackground from '../AcademicBackground/AcademicBackground'
+import Competencies from '../Competencies/Competencies'
 
 const ProfileInfo = () => {
   return (
@@ -13,9 +14,13 @@ const ProfileInfo = () => {
       </div>
       <div className="profile-info-container">
         <div className="profile-info-text section-info">
-          <h2>Perfil profissional</h2>
-          <p>Desenvolvedor apaixonado por tecnologia e aprendizado contínuo, com foco em Node.js e desenvolvimento web. Estudante no curso de ciência da computação do IESB, busco uma oportunidade de estágio para aplicar e expandir minhas habilidades em desenvolvimento e contribuir com projetos desafiadores.</p>
+          <h2>Perfil</h2>
+          <p>Programador com 2 anos de experiência buscando oportunidade como desenvolvedor web. Estudante no curso de ciência da computação do IESB.</p>
         </div>
+        <div className="skills-competencies-tablet-pc">
+        <Competencies />
+        {/* <Skills /> */}
+      </div>
         <div  className="academic-background-pc-celular">
           <AcademicBackground />
         </div>

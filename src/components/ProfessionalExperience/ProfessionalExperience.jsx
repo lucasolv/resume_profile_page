@@ -11,7 +11,7 @@ const ProfessionalExperience = () => {
                 <div className="experience-details">
                     <h5 className='details'>IESB / CESB</h5>
                     <h5 className='details'>Abril de 2023 – Abril de 2025</h5>
-                    <p>Desenvolvedor: Criação de plataforma para auxílio de alunos com Inteligência artificial generativa, utilizando API da OpenAI, ReactJS e NodeJS.</p>
+                    <p>Desenvolvedor: Construção de plataforma voltada ao apoio de alunos, utilizando inteligência artificial generativa via API da OpenAI, criando frontend e backend do zero com React.js e Node.js, e conectando o backend a um banco de dados MySQL com gerenciamento e visualização dos dados com Workbench. Atuei também como ponte entre o time de desenvolvimento e a equipe de requisitos.</p>
                 </div>
             </div>
             <div className="experience-infos">
@@ -19,7 +19,7 @@ const ProfessionalExperience = () => {
                 <div className="experience-details">
                     <h5 className='details'>Motora / ClikMob</h5>
                     <h5 className='details'>Abril de 2024 – Agosto de 2024</h5>
-                    <p>Desenvolvedor: Construção de back-end com NodeJS e front-end com ReactJS.</p>
+                    <p>Desenvolvedor: Participação na construção de backend com Node.js com integração a um banco de dados MySQL e gerenciamento dos dados com Beekeeper Studio.</p>
                 </div>
             </div>
         </div>

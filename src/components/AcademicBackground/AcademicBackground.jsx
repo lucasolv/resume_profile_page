@@ -8,7 +8,7 @@ const AcademicBackground = () => {
         <div className="instituitions-container">
         <div className="instituition-info">
             <h4>Graduação em Ciência da computação</h4>
-            <p>Centro Universitário IESB ( 8° Semestre)</p>
+            <p>Centro Universitário IESB</p>
             <p>Agosto de 2021 - Junho de 2026</p>
         </div>
         <div className="instituition-info">

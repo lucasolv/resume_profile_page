@@ -20,10 +20,10 @@ const Navbar = () => {
   };
 
   const handleDownload = () => {
-    const pdfUrl = '/CV-LucasOliveira.pdf'; 
+    const pdfUrl = '/CV-LucasOliveiraFerreira.pdf'; 
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = 'CV-LucasOliveira.pdf';
+    link.download = 'CV-LucasOliveiraFerreira.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
